@@ -1,0 +1,129 @@
+a{
+    display:flex;
+    color:#AEAEAE;
+    text-decoration: none;
+}
+    /* mouse over the element*/
+a:hover {
+        color:#37C3B1 ;
+      }
+
+.container{ 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+    div{
+        display: block;
+        }
+             p {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 16px;
+          height: 100px;
+          width: 400px;
+          background:white;
+          color: rgb(179, 176, 176);
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+    .pcontainer{
+        display:flex;
+        justify-content: center;
+
+
+    }
+    #box1{
+        width: 400px;
+        height: 400px;
+        background-color: #00CCB1;
+        
+    }
+    #box2{
+        width: 400px;
+        height:400px;
+        background-color:#3D83DF;
+    
+    }
+    #box3{
+        width: 400px;
+        height: 400px;
+        background-color:#1B2734
+    
+
+    }
+    #boxG{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .logo{
+        color:#C4C4C4;
+    width: 155px;
+    height: 45;
+    }
+
+
+    .clincsimg{
+        opacity: 0.1;
+    }
+    .clincsimg:hover{
+        opacity: 0.6;
+    }  
+    .svgimg{
+        fill:"gray";
+    }
+   
+    .svgimg:hover{
+        fill:#00CCB1
+    }
+    .grid-itemone{
+        grid-area: areaone;
+      }
+      .grid-itemtwo{
+        grid-area: areatwo;
+      }
+      .grid-itemthree{
+        grid-area: areathree;
+      }
+      .grid-itemfour{
+        grid-area: areafour;
+      }
+      .grid-itemfive{
+        grid-area: areafive;
+      }
+      .grid-itemsix{
+        grid-area: areasix;
+    
+      }
+      .grid-itemseven{
+        grid-area: areaseven;
+      }
+      .grid-itemeight{
+        grid-area: areaeight;
+
+      }
+      .grid-itemnine{
+        background-color: #00CCB1;
+        grid-area: areanine;
+      }
+      .grid-itemten{
+        grid-area: areanine;
+      }
+    .grid-container {
+        display: grid;
+        grid-template-areas: 'areaone areatwo areathree areafour areafive'
+        'areasix areaseven areaeight areanine areaten';
+        grid-gap: 10px;
+       
+        padding: 10px
+
+        /* grid-template-columns:20% 20% 20% 20% 20%;
+        grid-template-rows:100px 100px 100px; */
+        
+        
+      }
+      .grid-item {
+        padding: 20px;
+        text-align: center;
+      }
+      
